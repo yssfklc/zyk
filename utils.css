@@ -101,3 +101,8 @@ h4 {
     color:var(--lighter);
     border-bottom: 2px solid var(--lighter);
 }
+@media (max-width:480px){
+.btn {
+        font-size: 14px;
+}
+}
