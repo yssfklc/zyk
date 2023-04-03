@@ -559,6 +559,8 @@ ul {
       }
       .card-icon{
         margin-bottom: 2rem;
+        margin-right: auto ;
+        margin-left: auto;
       }
       .card-project{
         display: flex;
@@ -597,6 +599,7 @@ ul {
         width: 7.5rem;
         height: 7.5rem;
         margin-right: 2rem;
+        margin-bottom: 2rem;
         border: 5px solid var(--dark);
         border-radius: 5px;
       }
@@ -815,6 +818,8 @@ ul {
   }
   .card-icon{
     margin-bottom: 2rem;
+    margin-right: auto ;
+    margin-left: auto;
   }
   .card-project{
     display: flex;
@@ -826,7 +831,7 @@ ul {
   }
   /*section card container*/
   .section-card-container{
-    height: 90rem;
+    height: 93rem;
     padding: 2rem;
     margin-top: 5rem;
     border-radius: 0;
@@ -853,6 +858,7 @@ ul {
     width: 7.5rem;
     height: 7.5rem;
     margin-right: 2rem;
+    margin-bottom: 2rem;
     border: 5px solid var(--dark);
     border-radius: 5px;
   }
@@ -1071,6 +1077,8 @@ ul {
     }
     .card-icon{
       margin-bottom: 2rem;
+      margin-right: auto ;
+      margin-left: auto;
     }
     .card-project{
       display: flex;
@@ -1082,7 +1090,7 @@ ul {
     }
     /*section card container*/
     .section-card-container{
-      height: 90rem;
+      height: 93rem;
       padding: 2rem;
       margin-top: 5rem;
       border-radius: 0;
@@ -1111,6 +1119,8 @@ ul {
       margin-right: 2rem;
       border: 5px solid var(--dark);
       border-radius: 5px;
+      margin-bottom: 2rem;
+
     }
     /*section image container*/
     .section-img-container {
