@@ -481,13 +481,14 @@ ul {
     border: 0;
     border-bottom: 1px solid var(--secondary) ;
     justify-self: self-end;
-    width: 47.5%;
+    width: 46.5%;
     }
   .contact-container .contact-container-form textarea {
     padding: 1rem 1rem;
     margin: 0 1rem 1rem 0;
     border: 0;
     border-bottom: 1px solid var(--secondary) ;
+    width: 95%;
     }
     .contact-btn{
       display: flex;
@@ -732,7 +733,7 @@ ul {
       }
       .contact-container .contact-container-text {
         align-self: center;
-        width: 50%;
+        width: 20%;
         padding: 1rem 1rem 0 0;
       } 
       .contact-container .contact-container-text h1{
@@ -740,6 +741,7 @@ ul {
         
       }
       .contact-container .contact-container-form {
+        
         width: 90%;
         margin-top: 1rem;
         }
@@ -749,7 +751,7 @@ ul {
         border-radius: 5px;
         border: 1px solid var(--secondary);
         justify-self: center;
-        width: 100%;
+        width: 47%;
         }
       .contact-container .contact-container-form textarea {
         padding: 1rem 1rem;
@@ -757,7 +759,7 @@ ul {
         border-radius: 5px;
         border: 1px solid var(--secondary);
         justify-self: center;
-        width: 100%;
+        width: 90%;
         }
         .contact-btn{
           display: flex;

@@ -98,8 +98,8 @@ h4 {
     font-size: 20px;
 }
 .active {
-    color:var(--lighter);
-    border-bottom: 2px solid var(--lighter);
+    color:var(--white)!important;
+    border-bottom: 2px solid var(--white);
 }
 @media (max-width:480px){
 .btn {
