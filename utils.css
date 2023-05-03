@@ -99,7 +99,20 @@ h4 {
 }
 .active {
     color:var(--white)!important;
-    border-bottom: 2px solid var(--white);
+    border-bottom: 1.8px solid var(--white);
+}
+.category-active{
+    color:black;
+    border-bottom: 3px solid black;
+}
+.category-inactive{
+    opacity: 0.8;
+    color: var(--secondary);
+}
+.category-inactive:hover{
+    opacity: 1;
+    color:black;
+    border-bottom: 2px solid black;
 }
 @media (max-width:480px){
 .btn {
