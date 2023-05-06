@@ -473,6 +473,7 @@ ul {
   }
   .about-text ul li {
     list-style: disc;
+    list-style-position: inside;
     font-weight: bold;
   }
   .about-container .about-image img{
@@ -778,6 +779,7 @@ ul {
       }
       .about-text ul li {
         list-style: disc;
+        list-style-position: inside;
         font-weight: bold;
       }
       .about-container .about-image img{
@@ -1044,6 +1046,7 @@ ul {
   }
   .about-text ul li {
     list-style: disc;
+    list-style-position: inside;
     font-weight: bold;
   }
   .about-container .about-image img{
@@ -1103,16 +1106,19 @@ ul {
       font-size: 12px;
     }
     .container {
-      width: 100%px;
+      width: 100%;
     }
     h1 {
-      font-size: 1.5rem;
+      font-size: 2.1rem;
     }
-    h2 {
-      font-size: 1.4rem;
+    h2,.card-icon h2 {
+      font-size: 2rem;
+    }
+    h3 {
+      font-size: 1.9rem;
     }
     p{
-      font-size: 1rem;
+      font-size: 1.5rem;
     }
     /*navbar*/
     .nav{
@@ -1150,15 +1156,25 @@ ul {
     }
     .card-project{
       display: flex;
-      align-items: center;
-      justify-content: center;
+      flex-direction: column;
+      /* align-items: center;
+      justify-content: center; */
       width: 100%;
-      height: 315px;
+      height: 100%;
       margin: 1rem 3rem;
+      padding: 1.5rem;
+    }
+    .card-img{
+      padding: 0;
+      margin-bottom: 1.5rem;
+    }
+    .card-img img{
+      width: 100%;
+      height: 100%;
     }
     /*section card container*/
     .section-card-container{
-      height: 93rem;
+      height: 130rem;
       padding: 2rem;
       margin-top: 5rem;
       border-radius: 0;
@@ -1309,6 +1325,7 @@ ul {
     }
     .about-text ul li {
       list-style: disc;
+      list-style-position: inside;
       font-weight: bold;
     }
     .about-container .about-image img{
